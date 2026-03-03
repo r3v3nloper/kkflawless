@@ -487,11 +487,11 @@ ul { list-style: none; }
   transform: translateY(-14px);
 }
 
-.leistung-card--featured h3,
-.leistung-card--featured .leistung-list li {
+.leistung-card.leistung-card--featured h3,
+.leistung-card.leistung-card--featured .leistung-list li {
   color: var(--white);
 }
-.leistung-card--featured .leistung-list li::before {
+.leistung-card.leistung-card--featured .leistung-list li::before {
   color: var(--accent);
 }
 
