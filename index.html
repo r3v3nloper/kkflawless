@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KK Flawless – Autoaufbereitung</title>
+  <meta name="description" content="KK Flawless – Professionelle Autoaufbereitung für Innen und Außen. Handwäsche, Politur, Versiegelung und mehr." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#hero" class="navbar__logo">
+        <img src="assets/Flawless_Car-removebg-preview.png" alt="" class="navbar__logo-icon-img" />
+        <div class="navbar__logo-text">
+          <span class="navbar__logo-name">KK FLAWLESS</span>
+          <span class="navbar__logo-sub">AUTOAUFBEREITUNG</span>
+        </div>
+      </a>
+      <nav class="navbar__nav">
+        <ul class="navbar__links">
+          <li><a href="#leistungen">Leistungen</a></li>
+          <li><a href="#galerie">Galerie</a></li>
+          <li><a href="#ueber-uns">Über uns</a></li>
+          <li><a href="#kontakt" class="btn btn--nav">Kontakt</a></li>
+        </ul>
+        <button class="navbar__burger" id="burger" aria-label="Menü öffnen">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="#leistungen" class="mobile-link">Leistungen</a></li>
+        <li><a href="#galerie" class="mobile-link">Galerie</a></li>
+        <li><a href="#ueber-uns" class="mobile-link">Über uns</a></li>
+        <li><a href="#kontakt" class="mobile-link">Kontakt</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <!--
+      HERO HINTERGRUNDBILD:
+      Füge in style.css bei .hero::before das Hintergrundbild ein:
+        background-image: url('assets/hero-bg.jpg');
+      Empfehlung: Ein Auto bei der Aufbereitung, Seitenperspektive, ca. 1920×1080 px
+    -->
+    <div class="hero__overlay"></div>
+    <div class="container hero__content">
+      <img src="assets/Flawless_Car-removebg-preview.png" alt="KK Flawless" class="hero__logo-icon" />
+      <p class="hero__tagline">AUTOAUFBEREITUNG</p>
+      <h1 class="hero__headline">Dein Auto.<br />Flawless.</h1>
+      <p class="hero__subtext">
+        Professionelle Innen- &amp; Außenaufbereitung –<br />
+        Handarbeit, Leidenschaft, perfektes Ergebnis.
+      </p>
+      <div class="hero__cta">
+        <a href="#leistungen" class="btn btn--primary">Leistungen entdecken</a>
+        <a href="#kontakt" class="btn btn--outline">Termin anfragen</a>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ========== TRUST BAR ========== -->
+  <div class="trust-bar">
+    <div class="container trust-bar__inner">
+      <div class="trust-item">
+        <span class="trust-icon">✓</span>
+        <span>100% Handarbeit</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon">✓</span>
+        <span>Premium Produkte</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon">✓</span>
+        <span>Innen &amp; Außen</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon">✓</span>
+        <span>Faire Preise</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== LEISTUNGEN ========== -->
+  <section class="section leistungen" id="leistungen">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Was wir anbieten</span>
+        <h2 class="section-title">Unsere Leistungen</h2>
+        <p class="section-desc">Von der Grundreinigung bis zur Premium-Aufbereitung – wir bringen dein Fahrzeug wieder zum Strahlen.</p>
+      </div>
+
+      <div class="leistungen__grid">
+
+        <!-- AUSSENAUFBEREITUNG -->
+        <div class="leistung-card">
+          <div class="leistung-card__icon-wrap leistung-card__icon-wrap--aussen">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18M3 12c0-3 2-5 9-5s9 2 9 5M3 12c0 3 2 5 9 5s9-2 9-5M12 7V5M12 19v-2"/><circle cx="7" cy="12" r="1.5" fill="currentColor" stroke="none"/><circle cx="17" cy="12" r="1.5" fill="currentColor" stroke="none"/></svg>
+          </div>
+          <h3>Außenaufbereitung</h3>
+          <ul class="leistung-list">
+            <li>Professionelle Handwäsche</li>
+            <li>Felgen- &amp; Reifenpflege</li>
+            <li>Lackpolitur &amp; Kratzerentfernung</li>
+            <li>Versiegelung / Wachsauftrag</li>
+            <li>Scheibenreinigung</li>
+            <li>Türgummis &amp; Kunststoffpflege</li>
+          </ul>
+          <a href="#kontakt" class="btn btn--ghost">Anfragen</a>
+        </div>
+
+        <!-- INNENAUFBEREITUNG -->
+        <div class="leistung-card leistung-card--featured">
+          <div class="leistung-card__badge">Beliebt</div>
+          <div class="leistung-card__icon-wrap leistung-card__icon-wrap--innen">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="10" rx="2"/><path d="M7 8V6a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2"/><line x1="8" y1="12" x2="8" y2="16"/><line x1="12" y1="12" x2="12" y2="16"/><line x1="16" y1="12" x2="16" y2="16"/></svg>
+          </div>
+          <h3>Innenaufbereitung</h3>
+          <ul class="leistung-list">
+            <li>Tiefenreinigung Innenraum</li>
+            <li>Saugen &amp; Dampfreinigung</li>
+            <li>Leder- &amp; Kunststoffpflege</li>
+            <li>Geruchsneutralisierung</li>
+            <li>Teppich- &amp; Polsterreinigung</li>
+            <li>Klimaanlage reinigen</li>
+          </ul>
+          <a href="#kontakt" class="btn btn--primary">Anfragen</a>
+        </div>
+
+        <!-- KOMPLETTPAKETE -->
+        <div class="leistung-card">
+          <div class="leistung-card__icon-wrap leistung-card__icon-wrap--komplett">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <h3>Komplettpaket</h3>
+          <ul class="leistung-list">
+            <li>Alles aus Innen &amp; Außen</li>
+            <li>Motorraum reinigen</li>
+            <li>Keramikversiegelung (optional)</li>
+            <li>Paint Protection Film (optional)</li>
+            <li>Vor- und Nachher Fotos</li>
+            <li>Individuelle Beratung</li>
+          </ul>
+          <a href="#kontakt" class="btn btn--ghost">Anfragen</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALERIE ========== -->
+  <section class="section galerie" id="galerie">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Unsere Arbeit</span>
+        <h2 class="section-title">Galerie</h2>
+        <p class="section-desc">Vorher &amp; Nachher – überzeugt euch selbst von unseren Ergebnissen.</p>
+      </div>
+
+      <div class="galerie__grid">
+        <!--
+          BILDER PLATZIERUNG:
+          Ersetze jeweils src="assets/galerie-X.jpg" mit deinen eigenen Bildern.
+          Empfohlene Maße: 800×600 px (Querformat)
+          Du kannst die Anzahl der .galerie-item Blöcke beliebig erweitern.
+        -->
+
+        <div class="galerie-item galerie-item--wide">
+          <img src="assets/galerie-1.jpg" alt="Außenaufbereitung - Vorher/Nachher" class="galerie-item__img" />
+          <div class="galerie-item__overlay">
+            <span>Außenaufbereitung</span>
+          </div>
+          <!-- PLATZHALTER – entfernen wenn Bild vorhanden -->
+          <div class="img-placeholder">
+            <div class="img-placeholder__icon">📷</div>
+            <p>Bild hier einfügen<br /><small>assets/galerie-1.jpg</small></p>
+          </div>
+        </div>
+
+        <div class="galerie-item">
+          <img src="assets/galerie-2.jpg" alt="Innenreinigung" class="galerie-item__img" />
+          <div class="galerie-item__overlay">
+            <span>Innenreinigung</span>
+          </div>
+          <div class="img-placeholder">
+            <div class="img-placeholder__icon">📷</div>
+            <p>Bild hier einfügen<br /><small>assets/galerie-2.jpg</small></p>
+          </div>
+        </div>
+
+        <div class="galerie-item">
+          <img src="assets/galerie-3.jpg" alt="Politur" class="galerie-item__img" />
+          <div class="galerie-item__overlay">
+            <span>Lackpolitur</span>
+          </div>
+          <div class="img-placeholder">
+            <div class="img-placeholder__icon">📷</div>
+            <p>Bild hier einfügen<br /><small>assets/galerie-3.jpg</small></p>
+          </div>
+        </div>
+
+        <div class="galerie-item">
+          <img src="assets/galerie-4.jpg" alt="Felgenreinigung" class="galerie-item__img" />
+          <div class="galerie-item__overlay">
+            <span>Felgenpflege</span>
+          </div>
+          <div class="img-placeholder">
+            <div class="img-placeholder__icon">📷</div>
+            <p>Bild hier einfügen<br /><small>assets/galerie-4.jpg</small></p>
+          </div>
+        </div>
+
+        <div class="galerie-item">
+          <img src="assets/galerie-5.jpg" alt="Lederreinigung" class="galerie-item__img" />
+          <div class="galerie-item__overlay">
+            <span>Lederpflege</span>
+          </div>
+          <div class="img-placeholder">
+            <div class="img-placeholder__icon">📷</div>
+            <p>Bild hier einfügen<br /><small>assets/galerie-5.jpg</small></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ÜBER UNS ========== -->
+  <section class="section ueber-uns" id="ueber-uns">
+    <div class="container ueber-uns__inner">
+      <div class="ueber-uns__image-wrap">
+        <!--
+          ÜBER UNS BILD:
+          Zeig dich oder dein Team bei der Arbeit.
+          Empfehlung: assets/ueber-uns.jpg, ca. 600×700 px (Hochformat oder Querformat)
+        -->
+        <img src="assets/ueber-uns.jpg" alt="KK Flawless Team" class="ueber-uns__img" />
+        <div class="img-placeholder img-placeholder--tall">
+          <div class="img-placeholder__icon">📷</div>
+          <p>Bild hier einfügen<br /><small>assets/ueber-uns.jpg</small></p>
+        </div>
+        <div class="ueber-uns__badge">
+          <strong>100%</strong>
+          <span>Zufriedenheitsgarantie</span>
+        </div>
+      </div>
+      <div class="ueber-uns__text">
+        <span class="section-label">Über uns</span>
+        <h2 class="section-title">Leidenschaft für<br />perfekte Autos</h2>
+        <p>
+          Bei KK Flawless ist Autoaufbereitung nicht nur ein Job – es ist unsere Leidenschaft.
+          Mit viel Liebe zum Detail und professionellem Equipment bringen wir jedes Fahrzeug
+          wieder in einen makellosen Zustand.
+        </p>
+        <p>
+          Wir verwenden ausschließlich hochwertige Pflegeprodukte und arbeiten zu 100 % in Handarbeit –
+          für ein Ergebnis, das wirklich überzeugt.
+        </p>
+        <div class="ueber-uns__stats">
+          <div class="stat">
+            <strong>200+</strong>
+            <span>Zufriedene Kunden</span>
+          </div>
+          <div class="stat">
+            <strong>5★</strong>
+            <span>Bewertungen</span>
+          </div>
+          <div class="stat">
+            <strong>3+</strong>
+            <span>Jahre Erfahrung</span>
+          </div>
+        </div>
+        <a href="#kontakt" class="btn btn--primary">Jetzt Termin buchen</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== KONTAKT ========== -->
+  <section class="section kontakt" id="kontakt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Kontakt</span>
+        <h2 class="section-title">Termin anfragen</h2>
+        <p class="section-desc">Schreib uns direkt – wir melden uns so schnell wie möglich bei dir.</p>
+      </div>
+
+      <div class="kontakt__inner">
+        <div class="kontakt__info">
+          <div class="kontakt-info-item">
+            <div class="kontakt-info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.08 6.08l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div>
+              <strong>Telefon / WhatsApp</strong>
+              <!-- Ersetze mit deiner echten Nummer -->
+              <a href="tel:+491234567890">+49 123 456 7890</a>
+            </div>
+          </div>
+          <div class="kontakt-info-item">
+            <div class="kontakt-info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <strong>E-Mail</strong>
+              <!-- Ersetze mit deiner echten E-Mail -->
+              <a href="mailto:info@kkflawless.de">info@kkflawless.de</a>
+            </div>
+          </div>
+          <div class="kontakt-info-item">
+            <div class="kontakt-info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <strong>Standort</strong>
+              <!-- Ersetze mit deiner echten Adresse -->
+              <span>Musterstraße 1, 12345 Musterstadt</span>
+            </div>
+          </div>
+          <div class="kontakt-info-item">
+            <div class="kontakt-info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            </div>
+            <div>
+              <strong>Öffnungszeiten</strong>
+              <span>Mo–Sa: 8:00 – 18:00 Uhr</span>
+            </div>
+          </div>
+
+          <!-- Social Media Links -->
+          <div class="kontakt__social">
+            <!-- Ersetze href mit deinen echten Social-Media-Links -->
+            <a href="#" class="social-link social-link--instagram" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              Instagram
+            </a>
+            <a href="#" class="social-link social-link--whatsapp" aria-label="WhatsApp">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+              WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <!-- Kontaktformular – sendet via mailto (kein Backend nötig) -->
+        <form class="kontakt__form" action="mailto:info@kkflawless.de" method="POST" enctype="text/plain">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name *</label>
+              <input type="text" id="name" name="name" placeholder="Max Mustermann" required />
+            </div>
+            <div class="form-group">
+              <label for="tel">Telefon</label>
+              <input type="tel" id="tel" name="telefon" placeholder="+49 123 456 789" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">E-Mail *</label>
+            <input type="email" id="email" name="email" placeholder="max@beispiel.de" required />
+          </div>
+          <div class="form-group">
+            <label for="fahrzeug">Fahrzeug</label>
+            <input type="text" id="fahrzeug" name="fahrzeug" placeholder="z.B. BMW 3er, 2021" />
+          </div>
+          <div class="form-group">
+            <label for="leistung">Gewünschte Leistung</label>
+            <select id="leistung" name="leistung">
+              <option value="">Bitte wählen...</option>
+              <option value="innen">Innenaufbereitung</option>
+              <option value="aussen">Außenaufbereitung</option>
+              <option value="komplett">Komplettpaket</option>
+              <option value="sonstiges">Sonstiges</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="nachricht">Nachricht</label>
+            <textarea id="nachricht" name="nachricht" rows="4" placeholder="Weitere Informationen, Wunschtermin..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Anfrage absenden</button>
+          <p class="form-hint">* Pflichtfelder. Wir melden uns innerhalb von 24 Stunden.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <div class="footer__logo-wrap">
+          <img src="assets/Flawless_Car-removebg-preview.png" alt="" class="footer__logo-icon" />
+          <div class="footer__logo-text">
+            <span class="footer__logo-name">KK FLAWLESS</span>
+            <span class="footer__logo-sub">AUTOAUFBEREITUNG</span>
+          </div>
+        </div>
+        <p>Professionelle Autoaufbereitung<br />für Innen &amp; Außen.</p>
+      </div>
+      <div class="footer__links">
+        <strong>Navigation</strong>
+        <ul>
+          <li><a href="#leistungen">Leistungen</a></li>
+          <li><a href="#galerie">Galerie</a></li>
+          <li><a href="#ueber-uns">Über uns</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="footer__kontakt">
+        <strong>Kontakt</strong>
+        <!-- Ersetze mit echten Daten -->
+        <p><a href="tel:+491234567890">+49 123 456 7890</a></p>
+        <p><a href="mailto:info@kkflawless.de">info@kkflawless.de</a></p>
+        <p>Mo–Sa: 8:00 – 18:00 Uhr</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <span>&copy; 2025 KK Flawless Autoaufbereitung. Alle Rechte vorbehalten.</span>
+        <span>
+          <a href="impressum.html">Impressum</a> &middot;
+          <a href="datenschutz.html">Datenschutz</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
